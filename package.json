@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "web-ifc": "^0.0.39"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "rollup": "^3.19.1"
   }
 }
